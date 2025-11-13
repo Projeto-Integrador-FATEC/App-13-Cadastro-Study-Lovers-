@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/login_confirmado">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/group" />
+
+    <TextView
+        android:layout_width="363dp"
+        android:layout_height="83dp"
+        android:autoSizeTextType="uniform"
+        android:padding="10dp"
+        android:text="Conheça Alguns de nossos Colaboradores"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="98dp"
+        android:layout_gravity="right"
+        android:src="@drawable/bradesco_img" />
+
+    <TextView
+        android:layout_width="217dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:text="Fundação Bradesco"
+        android:padding="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="157dp"
+        android:autoSizeTextType="uniform"
+        android:padding="10dp"
+        android:text="@string/texto_longo" />
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Camada da sombra -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#33000000"/> <!-- Cor da sombra (semi-transparente preta) -->
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+
+    <!-- Camada do fundo principal (ligeiramente deslocada acima da sombra) -->
+    <item android:right="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/ciano"/>
+            <corners android:radius="16dp"/>
+        </shape>
+    </item>
+
+</layer-list>
